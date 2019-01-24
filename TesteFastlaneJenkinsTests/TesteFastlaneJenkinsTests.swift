@@ -21,8 +21,6 @@ class TesteFastlaneJenkinsTests: QuickSpec {
             beforeEach {
                 subject = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MoviesTableViewController") as? MoviesTableViewController
                 _ = subject.view
-                
-            
             }
             context("when view is loaded") {
                 it("should have 8 movies loaded") {
