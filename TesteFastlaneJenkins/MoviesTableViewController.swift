@@ -33,7 +33,7 @@ struct Movie {
 class MoviesDataHelper {
     static func getMovies() -> [Movie] {
         return [
-            Movie(title: "The Emoji Movie", genre: .Animation),
+            Movie(title: "The Emoji Movi", genre: .Animation),
             Movie(title: "Logan", genre: .Action),
             Movie(title: "Wonder Woman", genre: .Action),
             Movie(title: "Zootopia", genre: .Animation),
